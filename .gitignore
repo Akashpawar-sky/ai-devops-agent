@@ -1,0 +1,16 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+bin/
+
+.idea/
+*.iml
+
+.env
+*.log
