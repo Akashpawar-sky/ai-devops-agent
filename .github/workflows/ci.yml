@@ -23,3 +23,9 @@ jobs:
 
       - name: Build and test
         run: mvn clean test
+
+      - name: Build JAR
+        run: mvn package -DskipTests
+
+      - name: Build Docker image
+        run: docker build -t ai-devops-agent:latest .
